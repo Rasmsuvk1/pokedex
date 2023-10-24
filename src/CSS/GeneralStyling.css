@@ -1,0 +1,18 @@
+
+.mainBody{
+   width: 70%;
+   margin: auto;
+   position: relative;
+
+}
+
+.pokemon {
+
+ height: 100px;
+ width: 100px;   
+ padding: 2%;
+}
+
+#Cubone{
+    width: 135px;
+}

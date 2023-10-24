@@ -1,0 +1,25 @@
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+  }
+
+  .navItem {
+    display: inline;
+    border-color: black;
+    border-right: 1px;
+  }
+  .pokeBall {
+   
+    float:right;
+    max-height: 38px;
+    box-shadow: 0 10px 16px 10px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+ 

@@ -1,0 +1,56 @@
+
+.pokeElement{
+    background-color: white;
+    width: 300px;
+    height: 400px ;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    color: #3c4043;
+    cursor: pointer;
+    fill: currentcolor;
+    max-width: 100%;
+    margin: 2%;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    will-change: transform,opacity;
+    
+}
+
+.pokeElement:hover{
+    background-color: lightgray;
+}
+.pokeElement:active{
+    background-color: lightgray;
+}
+.pokeName{
+    text-align: center;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+.pokeIndex{
+    color: dimgray;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.pokePic{
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.typeList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    color: dimgray;
+    text-transform:capitalize;
+}
