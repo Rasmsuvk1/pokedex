@@ -12,13 +12,13 @@ function App() {
         <header className="content">
         <Redirect from="/" to="Home" />
           <Switch>
-            <Route path='/Home'> <Home/> </Route>
+            <Route path='/pokedex/Home'> <Home/> </Route>
           </Switch>
           <Switch>
-            <Route path='/AboutUs'> <AboutUs/> </Route>
+            <Route path='/pokedex/AboutUs'> <AboutUs/> </Route>
           </Switch>
           <Switch>
-            <Route path='/ThePokedex'><ThePokedex/> </Route>
+            <Route path='/pokedex/ThePokedex'><ThePokedex/> </Route>
           </Switch>
         </header>
       </div>
